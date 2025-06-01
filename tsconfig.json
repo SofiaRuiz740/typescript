@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",               // JavaScript moderno compatible con navegadores actuales
+    "module": "es6",               // Tipo de módulo para import/export (o "commonjs" para Node)
+    "rootDir": "./src",            // Carpeta donde están los TS originales
+    "outDir": "./dist",            // Carpeta donde se colocan los JS compilados
+    "strict": true,                // Opcional: activa chequeos estrictos
+    "esModuleInterop": true        // Para facilitar importaciones
+  },
+  "include": ["src/**/*"]          // Indica qué archivos TS incluir en la compilación
+}
+
